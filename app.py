@@ -29,7 +29,7 @@ temperature = st.sidebar.slider("🌡 Temperature", min_value=0.1, max_value=2.0
 max_tokens = st.sidebar.slider("📝 Max Tokens", min_value=100, max_value=4096, value=1024, step=100)
 
 
-st.title("🤖Multimodel Chatbot🤖")
+st.title("Chatbot Buddy 😎")
 
 
 for message in st.session_state.messages:
